@@ -25,6 +25,10 @@ class MyApplication extends StatefulWidget {
 class _MyApplicationState extends State<MyApplication> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text("My Appbar"),
+      ),
+    );
   }
 }
